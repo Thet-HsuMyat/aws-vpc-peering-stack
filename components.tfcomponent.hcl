@@ -7,7 +7,7 @@ component "backend_network" {
   }
 
   providers = {
-    aws = provider.aws.singapore
+    aws = provider.aws.tokyo
   }
 }
 
@@ -20,6 +20,6 @@ component "frontend_network" {
   }
 
   providers = {
-    aws = provider.aws.singapore
+    aws = provider.aws.tokyo
   }
 }

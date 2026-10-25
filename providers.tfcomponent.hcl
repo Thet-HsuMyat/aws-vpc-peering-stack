@@ -5,7 +5,7 @@ required_providers {
   }
 }
 
-provider "aws" "singapore" {
+provider "aws" "tokyo" {
   config {
     region = var.aws_region
 

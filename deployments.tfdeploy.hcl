@@ -4,7 +4,7 @@ identity_token "aws" {
 
 deployment "dev" {
   inputs = {
-    aws_region = "ap-southeast-1"
+    aws_region = "ap-northeast-1"
 
     role_arn = "arn:aws:iam::672718425217:role/hcp-terraform-role"
 
